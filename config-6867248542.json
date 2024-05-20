@@ -1,0 +1,239 @@
+{
+    "hikka.security": {
+        "owner": [
+            6867248542
+        ]
+    },
+    "hikka.inline.token_obtainment": {
+        "no_mute": true
+    },
+    "hikka.inline": {
+        "bot_token": "7029650545:AAEpwTB4EnIScbplqDsq3qW-zM51KDuwX8w"
+    },
+    "Presets": {
+        "sent": true
+    },
+    "LoaderMod": {
+        "loaded_modules": {
+            "MusicDLMod": "https://mods.hikariatama.ru/musicdl.py",
+            "BulkCheckMod": "https://mods.hikariatama.ru/bulkcheck.py",
+            "WaifuMod": "https://mods.hikariatama.ru/waifu.py",
+            "GrustnoGramMod": "https://mods.hikariatama.ru/grustnogram.py",
+            "AnimatedQuotesMod": "https://mods.hikariatama.ru/aniquotes.py",
+            "CatgirlMod": "https://mods.hikariatama.ru/catgirl.py",
+            "EmotionlessMod": "https://mods.hikariatama.ru/emotionless.py",
+            "Exec": "https://github.com/MIHUTKA3/Hikka-plugins/raw/main/exec.py",
+            "Web2fileMod": "https://mods.hikariatama.ru/web2file.py",
+            "CarbonMod": "https://mods.hikariatama.ru/carbon.py",
+            "AnimeChanMod": "https://raw.githubusercontent.com/vsecoder/hikka_modules/main/animechan.py",
+            "ComplementsMod": "https://github.com/SkillsAngels/Modules/raw/main/Complements.py",
+            "WikiMod": "https://raw.githubusercontent.com/vsecoder/hikka_modules/main/wikimod.py",
+            "MagicTextMod": "https://github.com/MoriSummerz/ftg-mods/raw/main/magictext.py",
+            "SpeechCensorshipMod": "https://raw.githubusercontent.com/vsecoder/hikka_modules/main/speechcensorship.py",
+            "KeywordMod": "https://mods.hikariatama.ru/keyword.py",
+            "ApodiktumAutoReactMod": "https://raw.githubusercontent.com/anon97945/hikka-mods/master/autoreact.py",
+            "ApodiktumLibControllerMod": "https://raw.githubusercontent.com/anon97945/hikka-mods/master/apolib_controller.py",
+            "Kittens": "https://raw.githubusercontent.com/Codwizer/ReModules/main/Kittens.py",
+            "NekoSpy": "https://mods.hikariatama.ru/nekospy.py",
+            "Search": "https://raw.githubusercontent.com/Codwizer/ReModules/main/search.py",
+            "MembersQueryMod": "https://raw.githubusercontent.com/iamnalinor/FTG-modules/main/membersquery.py",
+            "PornMod": "https://mods.hikariatama.ru/porn.py",
+            "CrAIyonMod": "https://mods.hikariatama.ru/craiyon.py",
+            "HikariChatMod": "https://mods.hikariatama.ru/hikarichat.py",
+            "OxfordMod": "https://mods.hikariatama.ru/oxford.py"
+        },
+        "__config__": {
+            "MODULES_REPO": "https://mods.hikariatama.ru",
+            "ADDITIONAL_REPOS": [
+                "https://github.com/hikariatama/host/raw/master",
+                "https://github.com/MoriSummerz/ftg-mods/raw/main",
+                "https://gitlab.com/CakesTwix/friendly-userbot-modules/-/raw/master"
+            ],
+            "share_link": false,
+            "basic_auth": null
+        },
+        "do_not_subscribe": [
+            "@apodiktum_modules"
+        ]
+    },
+    "CoreMod": {
+        "aliases": {}
+    },
+    "UpdaterMod": {
+        "restart_ts": null,
+        "do_not_create": true,
+        "__config__": {
+            "GIT_ORIGIN_URL": "https://github.com/hikariatama/Hikka"
+        },
+        "selfupdatemsg": null
+    },
+    "Quickstart": {
+        "no_msg": true
+    },
+    "TestMod": {
+        "__config__": {
+            "force_send_all": false,
+            "tglog_level": "INFO",
+            "ignore_common": true
+        }
+    },
+    "HikkaInfoMod": {
+        "__config__": {
+            "custom_message": null,
+            "custom_button": [
+                "\ud83c\udf18 Support chat",
+                "https://t.me/hikka_talks"
+            ],
+            "banner_url": "https://github.com/hikariatama/assets/raw/master/hikka_banner.mp4"
+        }
+    },
+    "UnitHeta": {
+        "__config__": {
+            "autoupdate": false,
+            "translate": true,
+            "allow_external_access": false
+        }
+    },
+    "UpdateNotifier": {
+        "__config__": {
+            "disable_notifications": false
+        }
+    },
+    "Help": {
+        "__config__": {
+            "core_emoji": "\u25aa\ufe0f",
+            "plain_emoji": "\u25ab\ufe0f",
+            "empty_emoji": "\ud83d\ude48"
+        }
+    },
+    "TerminalMod": {
+        "__config__": {
+            "FLOOD_WAIT_PROTECT": 2
+        }
+    },
+    "APIRatelimiterMod": {
+        "__config__": {
+            "time_sample": 15,
+            "threshold": 100,
+            "local_floodwait": 30,
+            "forbidden_methods": [
+                "joinChannel",
+                "importChatInvite"
+            ]
+        }
+    },
+    "HikkaBackupMod": {
+        "period": 3600,
+        "last_backup": 1716203110
+    },
+    "hikka.translations": {
+        "lang": "ru"
+    },
+    "MusicDLLib": {
+        "__config__": {
+            "timeout": 40,
+            "retries": 3,
+            "lossless_priority": false
+        }
+    },
+    "WakaTimeMod": {
+        "widgets": [],
+        "__config__": {
+            "wakatime_username": null,
+            "update_interval": 300
+        }
+    },
+    "EmotionlessMod": {
+        "state": true
+    },
+    "ChatGPT": {
+        "__config__": {
+            "api_key": ""
+        }
+    },
+    "WikiMod": {
+        "__config__": {
+            "wiki_lang": "en"
+        }
+    },
+    "SpeechCensorshipMod": {
+        "__config__": {
+            "replace_symbols": "#",
+            "language": [
+                "ru",
+                "en"
+            ]
+        },
+        "censorship_work": true
+    },
+    "KeywordMod": {
+        "bl": [
+            6867248542
+        ]
+    },
+    "ApodiktumAutoReactMod": {
+        "__config__": {
+            "reaction_active": true,
+            "delay": 0.5,
+            "delay_chats": [],
+            "ignore_self": false,
+            "raise_error": false,
+            "random_delay_chats": [],
+            "reactions": [
+                "all|1792410946|\u2764\ufe0f|\ud83d\udc4d|\ud83d\udd25"
+            ],
+            "reactions_chance": [],
+            "shuffle_reactions": [],
+            "auto_migrate": true
+        },
+        "hashs": [
+            "5e4efd1813f26be98e13f6249062cc88fb5e702e95a495d1e8688f6dea6a424e"
+        ]
+    },
+    "ApodiktumLib": {
+        "chats": {},
+        "__config__": {
+            "auto_migrate": true,
+            "log_channel": true,
+            "log_debug": false
+        }
+    },
+    "TextinstickerMod": {
+        "__config__": {
+            "font": "https://github.com/CodWize/ReModules/blob/main/assets/Samson.ttf?raw=true"
+        }
+    },
+    "NekoSpy": {
+        "__config__": {
+            "enable_pm": true,
+            "enable_groups": false,
+            "whitelist": [],
+            "blacklist": [],
+            "always_track": [],
+            "log_edits": true,
+            "ignore_inline": true,
+            "fw_protect": 3.0,
+            "save_sd": true
+        },
+        "state": true
+    },
+    "PornMod": {
+        "__config__": {
+            "gay": false
+        }
+    },
+    "HikariChatMod": {
+        "__config__": {
+            "silent": false,
+            "join_ratelimit": 10,
+            "banninja_cooldown": 300,
+            "warns_limit": 7,
+            "close_on_raid": true
+        },
+        "token": "asuna_34VpB0hAELmqfR9fmYMBSmLrM0qqU0J4",
+        "chats": {
+            "6887943295": {},
+            "2002888935": {}
+        }
+    }
+}
